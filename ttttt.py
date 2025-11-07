@@ -1,1 +1,9 @@
-print("sandbag freestyle!")
+import numpy as np
+x = np.array([1, 2, 3])
+print(x)
+
+A = np.array([[1,2], [3,4]])
+print(A)
+B = np.array([10,20])
+print(B)
+print(A*B)
